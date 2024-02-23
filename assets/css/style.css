@@ -45,5 +45,15 @@ body {
     font-size: 30px;
 }
 
+/*About us section*/
+#about-us-header{
+    font-size: 50px;
+    color: bisque;
+    min-height: auto;
+    max-width: 500px;
+    margin-inline: auto;
+    text-align: center;
+}
+
 
 
