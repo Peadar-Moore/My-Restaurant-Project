@@ -9,7 +9,41 @@
 }
 
 body {
-    color: bisque;
+    background-repeat: no-repeat;
     background-color: black;
     width: auto
 }
+/*header*/
+#main-header {
+    font-size: 50px;
+    color: coral;
+    min-height: auto;
+    max-width: 500px;
+    margin-inline: auto;
+    text-align: center;
+    
+}
+
+.main-image {
+    max-width: 100%;
+    flex-wrap: wrap;
+    display:flex;
+}
+
+#navbar {  
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 3rem;
+    
+}
+
+#navbar a {
+    color:bisque;
+    background-color:black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+
