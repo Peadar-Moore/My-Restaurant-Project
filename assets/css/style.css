@@ -1,0 +1,15 @@
+/*Font-family*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+/*Wildcard selector*/
+
+* {
+    margin: 0px;
+    padding:0px;
+}
+
+body {
+    color: bisque;
+    background-color: black;
+    width: auto
+}
