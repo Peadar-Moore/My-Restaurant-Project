@@ -9,7 +9,7 @@
 }
 
 body {
-    background-repeat: no-repeat;
+    
     background-color: black;
     width: auto
 }
@@ -21,13 +21,22 @@ body {
     max-width: 500px;
     margin-inline: auto;
     text-align: center;
+    text-decoration: underline;
     
+}
+
+.second-header {
+    color:coral;   
+    max-width: 500px;
+    margin-inline: auto;
+    text-align: center;
 }
 
 .main-image {
     max-width: 100%;
     flex-wrap: wrap;
     display:flex;
+    
 }
 
 #navbar {  
@@ -35,6 +44,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem 3rem;
+    border-bottom: 2px solid bisque;
     
 }
 
@@ -43,9 +53,22 @@ body {
     background-color:black;
     text-decoration: none;
     font-size: 30px;
+    padding-left: 10px;
 }
 
 /*About us section*/
+#about-section{
+     margin-top: 50px;
+     padding:50px
+
+}
+
+.about-image{
+    max-width: 100%;
+    flex-wrap: wrap;
+    display:flex;
+}
+
 #about-us-header{
     font-size: 50px;
     color: bisque;
@@ -53,6 +76,14 @@ body {
     max-width: 500px;
     margin-inline: auto;
     text-align: center;
+}
+
+.about-us-paragraph {
+    color:bisque;
+    background-color:black;
+    text-align: center;
+    font-size: 20px;
+    display:flex
 }
 
 
