@@ -11,17 +11,19 @@
 
 body {
    background-color: black;
-    width: auto
+    width: auto;
+    padding:10px
 }
 /*header*/
 #main-header {
     font-size: 50px;
     color: coral;
     min-height: auto;
-    max-width: 500px;
+    max-width:700px;
     margin-inline: auto;
     text-align: center;
     text-decoration: underline;
+    flex-wrap: wrap;
     
 }
 
@@ -59,8 +61,11 @@ body {
 
 /*About us section*/
 #about-section{
-     margin-top: 50px;
-     padding:50px
+     color: bisque;
+     background-color:black;
+     text-align: center;
+     
+     
 
 }
 
@@ -71,48 +76,45 @@ body {
 }
 
 #about-us-header{
-    font-size: 50px;
-    color: bisque;
+    font-size: 50px; 
     min-height: auto;
     max-width: 500px;
     margin-inline: auto;
-    text-align: center;
     text-decoration: underline;
+    
 }
 
 .about-us-paragraph {
-    color:bisque;
-    background-color:black;
-    text-align: center;
     font-size: 20px;
-    display:flex
+    display:flex;
+    
 }
 
 #contact-us {
-    color: bisque;
-    padding: 50px;
-    font-size: 50px;
-    text-align: center;
-    text-decoration: underline;
-   
-  
+    text-align: left;
+    min-height: auto;
+    min-width:auto;
+    color:bisque;
     
+}
 
+#contact-header {    
+      text-decoration: underline;
+      font-size: 50px;
+      
 }
 
 .your-details {
-    color: bisque;
-    text-align: center;
+ 
    
 }
 
 .contact-form {
-    color: bisque;
-    display: grid;
-    box-sizing: border-box;
-    justify-content:center;
-   
-}    
+   display:inline-block;
+   width: 200px;
+     
+}
+
     
 footer{
     min-height: 200px;;
