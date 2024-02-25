@@ -19,7 +19,7 @@ body {
     font-size: 50px;
     color: coral;
     min-height: auto;
-    max-width:700px;
+    max-width: auto;
     margin-inline: auto;
     text-align: center;
     text-decoration: underline;
@@ -64,9 +64,10 @@ body {
      color: bisque;
      background-color:black;
      text-align: center;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    
      
-     
-
 }
 
 .about-image{
@@ -117,7 +118,10 @@ body {
 
     
 footer{
-    min-height: 200px;;
+    min-height:50px;
+    background-color: bisque;
+    margin-top: 10px;
+    color:black;
 }
 
 
