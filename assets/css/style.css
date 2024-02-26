@@ -11,35 +11,31 @@
 
 body {
    background-color: black;
-    width: auto;
-    padding:10px
-}
-/*header*/
-#main-header {
-    font-size: 50px;
-    color: coral;
-    min-height: auto;
-    max-width: auto;
-    margin-inline: auto;
-    text-align: center;
-    text-decoration: underline;
-    flex-wrap: wrap;
+   
+
     
+}
+/*header section*/
+#main-header {
+    text-align: center;
+    font-size: 100px;
+    color: coral;
+    flex-wrap: wrap;
+    text-decoration: underline;
+   
+
+ 
+
 }
 
 .second-header {
     color:coral;   
-    max-width: 500px;
-    margin-inline: auto;
+    font-size: 50px;
     text-align: center;
+    flex-wrap: wrap;
+  
 }
 
-.main-image {
-    max-width: 100%;
-    flex-wrap: wrap;
-    display:flex;
-    
-}
 
 #navbar {  
     list-style-type: none;
@@ -53,73 +49,95 @@ body {
 
 #navbar a {
     color:bisque;
-    background-color:black;
     text-decoration: none;
     font-size: 30px;
     padding-left: 10px;
+
 }
 
 /*About us section*/
 #about-section{
      color: bisque;
      background-color:black;
-     text-align: center;
      margin-top: 10px;
      margin-bottom: 10px;
-    
+     column-count: 2;
+     flex-wrap: wrap;
      
 }
 
 .about-image{
-    max-width: 100%;
-    flex-wrap: wrap;
-    display:flex;
+    gap: 3rem 3rem;
+    width:100%;
+    height:200px;
+   
 }
 
 #about-us-header{
     font-size: 50px; 
-    min-height: auto;
-    max-width: 500px;
-    margin-inline: auto;
     text-decoration: underline;
+    padding-left: 10px;
     
 }
 
 .about-us-paragraph {
     font-size: 20px;
-    display:flex;
+    padding-left: 10px;
     
 }
-
+/*Contact us section*/
 #contact-us {
     text-align: left;
     min-height: auto;
     min-width:auto;
     color:bisque;
-    
+    flex-wrap: wrap;
+      
 }
 
 #contact-header {    
       text-decoration: underline;
       font-size: 50px;
+      padding-left: 10px;
       
 }
 
+.your-details {
+    padding-left: 10px;
+
+}
 
 .contact-form {
    display:inline-block;
    width: 200px;
+   padding-left: 10px;
      
 }
 
-    
-footer{
+    /*Footer section*/
+#footer {
     min-height:50px;
     background-color: bisque;
     margin-top: 10px;
     color:black;
+    display:flex;
+    gap: 3rem 3rem;
 }
 
+#footer ul {
+    list-style-type:none;
+    display:flex;
+    gap: 10rem 10rem;
+   
+    
+}
+
+#footer a {
+   
+    font-size: 50px;
+    
+    color:black;
+}
 
 
 
