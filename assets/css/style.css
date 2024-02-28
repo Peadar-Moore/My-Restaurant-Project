@@ -10,6 +10,7 @@
 }
 
 body {
+    
    background-color: black;
    
 
@@ -23,9 +24,14 @@ body {
     flex-wrap: wrap;
     text-decoration: underline;
    
+}
 
- 
-
+.header-image {
+    width: 100%;
+    height: 400px;
+    object-fit:fill;
+    flex-wrap: wrap;
+     
 }
 
 .second-header {
@@ -35,7 +41,6 @@ body {
     flex-wrap: wrap;
   
 }
-
 
 #navbar {  
     list-style-type: none;
@@ -57,12 +62,12 @@ body {
 
 /*About us section*/
 #about-section{
-     color: bisque;
-     background-color:black;
-     margin-top: 10px;
-     margin-bottom: 10px;
-     column-count: 2;
-     flex-wrap: wrap;
+    color: bisque;
+    background-color:black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    column-count: 2;
+    flex-wrap: wrap;
      
 }
 
@@ -83,60 +88,96 @@ body {
 .about-us-paragraph {
     font-size: 20px;
     padding-left: 10px;
+    flex-wrap: wrap;
     
 }
 /*Contact us section*/
 #contact-us {
-    text-align: left;
-    min-height: auto;
-    min-width:auto;
+    overflow: clip;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    text-align: center;
     color:bisque;
     flex-wrap: wrap;
-      
+    padding-bottom: 50px;
+    padding-top: 50px;
+         
 }
 
-#contact-header {    
-      text-decoration: underline;
-      font-size: 50px;
-      padding-left: 10px;
-      
+.our-address {
+    overflow: clip;
+    justify-content: center;
+    color:bisque;
+    font-size: large;
+}
+
+#contact-header {
+    text-align: center;    
+    text-decoration: underline;
+    font-size: 50px;
+    color:bisque;
+    border-top: 2px solid bisque;
+    border-bottom: 2px solid bisque;
 }
 
 .your-details {
-    padding-left: 10px;
+    overflow: clip;
+    font-size: large;
+   text-align: center;
+   color:bisque;
 
 }
 
 .contact-form {
-   display:inline-block;
-   width: 200px;
-   padding-left: 10px;
+    overflow: clip;
+   font-size: large;
+   justify-content: center;
+   text-align: center;
+   display: grid;
+   flex-wrap: wrap;
+   gap:10px
      
+}
+
+#fname {
+   
+    text-align: center;
+    width:115px;
+}
+
+#lname {
+    
+    text-align: center;
+    width:115px;
+}
+
+#email {
+    text-align: center;
+    width:115px;
 }
 
     /*Footer section*/
 #footer {
-    min-height:50px;
     background-color: bisque;
-    margin-top: 10px;
-    color:black;
-    display:flex;
-    gap: 3rem 3rem;
+    width: 100%;
+    height: 50px;
+    flex-wrap: wrap;
 }
 
 #footer ul {
-    list-style-type:none;
     display:flex;
-    gap: 10rem 10rem;
-   
-    
+    font-size: xx-large;
+    list-style-type: none;
+    justify-content: center;
+    gap: 1rem 3rem;
+    flex-wrap: wrap;
+      
 }
 
 #footer a {
    
-    font-size: 50px;
-    
-    color:black;
+      color: black;
+      
 }
 
 
