@@ -4,17 +4,20 @@
 /*Wildcard selector*/
 
 * {
-    margin: 0px;
-    padding:0px;
-    font: inherit;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
 }
 
+/* General styles*/
 body {
-    
-   background-color: black;
-   
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  
 
-    
 }
 /*header section*/
 #main-header {
@@ -26,11 +29,17 @@ body {
    
 }
 
-.header-image {
+.hero-image {
+    justify-content: flex-start;
+    object-fit: scale-down;
     width: 100%;
-    height: 400px;
-    object-fit:fill;
     flex-wrap: wrap;
+    height: 500px;
+   
+}
+
+.header-image {
+   
      
 }
 
@@ -62,11 +71,11 @@ body {
 
 /*About us section*/
 #about-section{
+    text-align: center;
     color: bisque;
     background-color:black;
     margin-top: 10px;
     margin-bottom: 10px;
-    column-count: 2;
     flex-wrap: wrap;
      
 }
@@ -79,13 +88,15 @@ body {
 }
 
 #about-us-header{
+    padding-bottom: 20px;
     font-size: 50px; 
-    text-decoration: underline;
+    
     padding-left: 10px;
     
 }
 
 .about-us-paragraph {
+    text-align: center;
     font-size: 20px;
     padding-left: 10px;
     flex-wrap: wrap;
@@ -94,13 +105,11 @@ body {
 /*Contact us section*/
 #contact-us {
     overflow: clip;
-    display: grid;
-    grid-template-columns:1fr 1fr;
     text-align: center;
     color:bisque;
     flex-wrap: wrap;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
          
 }
 
@@ -113,47 +122,9 @@ body {
 
 #contact-header {
     text-align: center;    
-    text-decoration: underline;
     font-size: 50px;
     color:bisque;
-    border-top: 2px solid bisque;
-    border-bottom: 2px solid bisque;
-}
 
-.your-details {
-    overflow: clip;
-    font-size: large;
-   text-align: center;
-   color:bisque;
-
-}
-
-.contact-form {
-    overflow: clip;
-   font-size: large;
-   justify-content: center;
-   text-align: center;
-   display: grid;
-   flex-wrap: wrap;
-   gap:10px
-     
-}
-
-#fname {
-   
-    text-align: center;
-    width:115px;
-}
-
-#lname {
-    
-    text-align: center;
-    width:115px;
-}
-
-#email {
-    text-align: center;
-    width:115px;
 }
 
     /*Footer section*/
@@ -179,6 +150,19 @@ body {
       color: black;
       
 }
+
+/*The menu page*/
+#menu-image {
+    text-align: center;
+}
+
+#the-menu{
+    padding-top: 20px;
+    text-align: center;
+    font-size:xx-large;
+    color: coral;
+}
+
 
 
 
