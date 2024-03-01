@@ -147,6 +147,7 @@ body {
 }
 
 /*The menu page*/
+
 .menu-image {
     object-fit: scale-down;
     
@@ -155,7 +156,7 @@ body {
     flex-wrap: wrap;
 }
 
-#the-menu{
+.the-menu{
     padding-top: 20px;
     text-align: center;
     font-size:xx-large;
@@ -167,8 +168,9 @@ body {
 .starters{
     text-align: center;
     text-decoration: underline;
-    padding-top: 50px;
+    padding-top: 75px;
     flex-wrap: wrap;
+    color: coral;
 }
 
 .main-menu {
@@ -188,6 +190,47 @@ body {
     flex-wrap: wrap;
 }
 
+.main{
+    padding-top: 75px;
+    font-size: xx-large;
+    text-align: center;
+    color: coral;
+    text-decoration: underline;
+    flex-wrap: wrap;
+    
+}
+
+.main-course {
+    text-align: center;
+    padding-top: 20px;
+    font-size:xx-large;
+    color: coral;
+    flex-wrap: wrap;
+}
+
+.main-course li {
+    padding-top: 20px;
+}
+
+.desserts {
+    padding-top: 75px;
+    font-size: xx-large;
+    text-align: center;
+    color: coral;
+    text-decoration: underline;
+    flex-wrap: wrap;
+}
+
+.desserts-menu {
+    text-align: center;
+    padding-top: 20px;
+    font-size:xx-large;
+    color: coral;
+    flex-wrap: wrap;
+}
+.desserts-menu li {
+    padding-top: 20px;
+}
 
 
 
