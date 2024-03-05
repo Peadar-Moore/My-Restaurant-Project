@@ -1,5 +1,5 @@
 /*Font-family*/
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap");
 
 /*Wildcard selector*/
 
@@ -7,7 +7,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
 }
 
 /* General styles*/
@@ -16,223 +15,230 @@ body {
   display: flex;
   flex-direction: column;
   background-color: black;
-  
-
 }
 /*header section*/
 #main-header {
-    text-align: center;
-    font-size: 100px;
-    color: coral;
-    flex-wrap: wrap;
-    text-decoration: underline;
-   
+  text-align: center;
+  font-size: 100px;
+  color: coral;
+  flex-wrap: wrap;
+  text-decoration: underline;
 }
 
 .hero-image {
-    justify-content: flex-start;
-    object-fit: scale-down;
-    width: 100%;
-    flex-wrap: wrap;
-    height: 500px;
-   
+  justify-content: flex-start;
+  object-fit: scale-down;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 500px;
 }
 
 .second-header {
-    color:coral;   
-    font-size: 50px;
-    text-align: center;
-    flex-wrap: wrap;
-  
+  color: coral;
+  font-size: 50px;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
-#navbar {  
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem 3rem;
-    border-bottom: 2px solid bisque;
-    border-top: 2px solid bisque;
-    
+#navbar {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 3rem;
+  border-bottom: 2px solid bisque;
+  border-top: 2px solid bisque;
 }
 
 #navbar a {
-    color:bisque;
-    text-decoration: none;
-    font-size: 30px;
-    padding-left: 10px;
-
+  color: bisque;
+  text-decoration: none;
+  font-size: 30px;
+  padding-left: 10px;
 }
 
 /*About us section*/
-#about-section{
-    text-align: center;
-    color: bisque;
-    background-color:black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    flex-wrap: wrap;
-     
+#about-section {
+  text-align: center;
+  color: bisque;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
 }
 
-.about-image{
-    gap: 3rem 3rem;
-    width:100%;
-    height:200px;
-   
+.about-image {
+  gap: 3rem 3rem;
+  width: 100%;
+  height: 200px;
 }
 
-#about-us-header{
-    padding-bottom: 20px;
-    font-size: 50px; 
-    
-    padding-left: 10px;
-    
+#about-us-header {
+  padding-bottom: 20px;
+  font-size: 50px;
+
+  padding-left: 10px;
 }
 
 .about-us-paragraph {
-    text-align: center;
-    font-size: 20px;
-    padding-left: 10px;
-    flex-wrap: wrap;
-    
+  text-align: center;
+  font-size: 20px;
+  padding-left: 10px;
+  flex-wrap: wrap;
 }
 /*Contact us section*/
 #contact-us {
-    overflow: clip;
-    text-align: center;
-    color:bisque;
-    flex-wrap: wrap;
-    padding-bottom: 20px;
-    padding-top: 20px;
-         
+  overflow: clip;
+  text-align: center;
+  color: bisque;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .our-address {
-    overflow: clip;
-    justify-content: center;
-    color:bisque;
-    font-size: large;
+  overflow: clip;
+  justify-content: center;
+  color: bisque;
+  font-size: large;
 }
 
 #contact-header {
-    text-align: center;    
-    font-size: 50px;
-    color:bisque;
-
+  text-align: center;
+  font-size: 50px;
+  color: bisque;
 }
 
-    /*Footer section*/
+/*Footer section*/
 #footer {
-    background-color: bisque;
-    width: 100%;
-    height: 50px;
-    flex-wrap: wrap;
+  background-color: bisque;
+  width: 100%;
+  height: 50px;
+  flex-wrap: wrap;
+  
 }
 
 #footer ul {
-    display:flex;
-    font-size: xx-large;
-    list-style-type: none;
-    justify-content: center;
-    gap: 1rem 3rem;
-    flex-wrap: wrap;
-      
+  display: flex;
+  font-size: xx-large;
+  list-style-type: none;
+  justify-content: center;
+  gap: 1rem 3rem;
+  flex-wrap: wrap;
 }
 
 #footer a {
-   
-      color: black;
-      
+  color: black;
 }
 
 /*The menu page*/
 
 .menu-image {
-    object-fit: scale-down;
-    
-    width: 100%;
-    height: 500px;
-    flex-wrap: wrap;
+  object-fit: scale-down;
+  width: 100%;
+  height: 500px;
+  flex-wrap: wrap;
 }
 
-.the-menu{
-    padding-top: 20px;
-    text-align: center;
-    font-size:xx-large;
-    color: coral;
-    flex-wrap: wrap;
-    
+.the-menu {
+  padding-top: 20px;
+  text-align: center;
+  font-size: xx-large;
+  color: coral;
+  flex-wrap: wrap;
 }
 
-.starters{
-    text-align: center;
-    text-decoration: underline;
-    padding-top: 75px;
-    flex-wrap: wrap;
-    color: coral;
+.starters {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 75px;
+  flex-wrap: wrap;
+  color: coral;
 }
 
 .main-menu {
-    
-    text-align: center;
-    padding-top: 20px;
-    font-size:xx-large;
-    color: coral;
-    flex-wrap: wrap;
-
+  text-align: center;
+  padding-top: 20px;
+  font-size: xx-large;
+  color: coral;
+  flex-wrap: wrap;
 }
 .main-menu li {
-    text-align: center;
-    padding-top: 20px;
-    font-size:xx-large;
-    color: coral;
-    flex-wrap: wrap;
+  text-align: center;
+  padding-top: 20px;
+  font-size: xx-large;
+  color: coral;
+  flex-wrap: wrap;
 }
 
-.main{
-    padding-top: 75px;
-    font-size: xx-large;
-    text-align: center;
-    color: coral;
-    text-decoration: underline;
-    flex-wrap: wrap;
-    
+.main {
+  padding-top: 75px;
+  font-size: xx-large;
+  text-align: center;
+  color: coral;
+  text-decoration: underline;
+  flex-wrap: wrap;
 }
 
 .main-course {
-    text-align: center;
-    padding-top: 20px;
-    font-size:xx-large;
-    color: coral;
-    flex-wrap: wrap;
+  text-align: center;
+  padding-top: 20px;
+  font-size: xx-large;
+  color: coral;
+  flex-wrap: wrap;
 }
 
 .main-course li {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .desserts {
-    padding-top: 75px;
-    font-size: xx-large;
-    text-align: center;
-    color: coral;
-    text-decoration: underline;
-    flex-wrap: wrap;
+  padding-top: 75px;
+  font-size: xx-large;
+  text-align: center;
+  color: coral;
+  text-decoration: underline;
+  flex-wrap: wrap;
 }
 
 .desserts-menu {
-    text-align: center;
-    padding-top: 20px;
-    font-size:xx-large;
-    color: coral;
-    flex-wrap: wrap;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: xx-large;
+  color: coral;
+  flex-wrap: wrap;
 }
 .desserts-menu li {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
+/*The booking Page*/
 
+.booking-header {
+  color: coral;
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
+.booking-form {
+  flex-wrap: wrap;
+  font-size: large;
+  display: grid;
+  place-content: center;
+  color: coral;
+  max-width: 25%;
+  margin: auto;
+  gap:  1rem 3rem;
+  border-bottom: 20px;
+}
 
-
+.confirm-email {
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: large;
+    color: coral;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
