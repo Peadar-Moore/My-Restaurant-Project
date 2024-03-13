@@ -1,5 +1,5 @@
 /*Font-family*/
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /*Wildcard selector*/
 
@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: black;
+  font-family: Lato;
 }
 /*header section*/
 #main-header {
@@ -243,3 +244,57 @@ body {
     padding-bottom: 20px;
 }
 
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+  /* Header */
+  nav {
+      display: block;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    
+  }
+
+  /* Main content */
+  main {
+    
+      display: block;
+      text-align: center;
+  }
+
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  nav {
+    display: block;
+    text-align: center;
+  
+}
+
+/* Main content */
+main {
+  
+    display: block;
+    text-align: center;
+}
+
+}
+
+@media screen and (min-width: 1200px) {   
+  nav {
+    display: block;
+    text-align: center;
+  
+}
+
+/* Main content */
+main {
+  
+    display: block;
+    text-align: center;
+}
+
+
+}
