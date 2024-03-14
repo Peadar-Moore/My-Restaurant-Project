@@ -7,3 +7,5 @@ Users of this website will find all the information they need about the restarau
 Feoil Steakhouse and Bar includes an about us, contact us, menu and a booking form sections,<br>
 this website targeted for people of all ages who want a fine dinning steakhouse experience.
 
+<img src="assets/images/Am I Responsive_ - Google Chrome 15_03_2024 19_26_14.png">
+
