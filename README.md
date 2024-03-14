@@ -68,4 +68,25 @@ this website targeted for people of all ages who want a fine dinning steakhouse 
 <img src="assets/images/Bookings 1.png">
 <img src="assets/images/Bookings 2.png">
 
+<h2>Testing</h2>
+<h3>Validator Testing</h3>
+<ul>
+<li>HTML</li>
+No errors were returned when passing through the official W3c Validator.
 
+<li>CSS</li>
+No errors were returned when passing through the official Jigsaw Validator.
+
+<li>Accessibility</li>
+This website is responsive and the color and fonts are easy to read, this was tested by using dev tools and lighthouse.
+
+</ul>
+<img src="assets/images/Lighthouse.png">
+
+<h2>Deployment</h2>
+This website was deployed to GitHub. The steps to deploy are as follows:
+<ul>
+<li>In the GitHub repository go to the settings tab.</li>
+<li>From the source section drop-down menu, select the master branch.</li>
+<li>Once the master branch has been selected, the page provides the link to complete the website.</li>
+</ul>
