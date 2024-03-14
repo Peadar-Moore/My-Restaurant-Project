@@ -2,11 +2,11 @@
 
 <h2>Introduction</h2>
 
-Feoil Steakhouse and Bar website is a landing page for a fine dinning, steakhouse restaurant.<br>
+Feoil Steakhouse and Bar website is a landing page for a fine dining, steakhouse restaurant.<br>
 Feoil is the Irish word for meat.<br>
-Users of this website will find all the information they need about the restaraunt.<br>
+Users of this website will find all the information they need about the restaurant.<br>
 Feoil Steakhouse and Bar includes an about us, contact us, menu and a booking form sections,<br>
-this website targeted for people of all ages who want a fine dinning steakhouse experience.
+this website targeted for people of all ages who want a fine dining steakhouse experience.
 
 <img src="assets/images/Am I Responsive_ - Google Chrome 15_03_2024 19_26_14.png">
 
@@ -89,4 +89,10 @@ This website was deployed to GitHub. The steps to deploy are as follows:
 <li>In the GitHub repository go to the settings tab.</li>
 <li>From the source section drop-down menu, select the master branch.</li>
 <li>Once the master branch has been selected, the page provides the link to complete the website.</li>
+</ul>
+
+<h2>Credits</h2>
+<h3>Content</h3>
+<ul>
+<li>Some of the could for the CSS responsive layout was taken from Youtube tutorials such as:[Kevin Powell responsive web design](https://www.youtube.com/watch?v=x4u1yp3Msao&t=730s&pp=ygUfa2V2aW4gcG93ZWxsIHJlc3BvbnNpdmUgd2Vic2l0ZQ%3D%3D)</li>
 </ul>
