@@ -94,5 +94,12 @@ This website was deployed to GitHub. The steps to deploy are as follows:
 <h2>Credits</h2>
 <h3>Content</h3>
 <ul>
-<li>Some of the could for the CSS responsive layout was taken from Youtube tutorials such as:[Kevin Powell responsive web design](https://www.youtube.com/watch?v=x4u1yp3Msao&t=730s&pp=ygUfa2V2aW4gcG93ZWxsIHJlc3BvbnNpdmUgd2Vic2l0ZQ%3D%3D)</li>
+<li>Some of the code for the CSS responsive layout was taken from Youtube tutorials such as: Kevin Powell responsive website design https://www.youtube.com/watch?v=x4u1yp3Msao&t=730s&pp=ygUfa2V2aW4gcG93ZWxsIHJlc3BvbnNpdmUgd2Vic2l0ZQ%3D%3D.</li>
+<li>The media queries was taking from the Love Running Project.</li>
+<li>The icons for the social media links in the footer were taken from font-awesome.</li>
 </ul>
+
+ <h3>Media</h3>
+ <ul>
+ <li>The images for this website were taken from Pexels.com</li>
+ </ul>
